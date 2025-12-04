@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/auto-transfer-hub/",  // Si no estás usando un subdirectorio, pon "/"
+  base: "/",  // Si no estás usando un subdirectorio, pon "/"
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
