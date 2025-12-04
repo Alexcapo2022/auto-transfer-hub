@@ -5,7 +5,7 @@ import path from "path";
 
 // Configuración para GitHub Pages
 export default defineConfig({
-  base: "/auto-transfer-hub/",  // Asegúrate de que esta ruta coincida con el nombre de tu repositorio en GitHub
+  base: "https://alexcapo2022.github.io/auto-transfer-hub/",  // Asegúrate de que esta ruta coincida con el nombre de tu repositorio en GitHub
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
