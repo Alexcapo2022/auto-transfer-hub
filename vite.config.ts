@@ -1,10 +1,11 @@
+// vite.config.ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-// https://vitejs.dev/config/
+// Configuración para GitHub Pages
 export default defineConfig({
-  base: "/auto-transfer-hub/",  // Esta es la clave para que funcione correctamente en GitHub Pages
+  base: "/auto-transfer-hub/",  // Asegúrate de que esta ruta coincida con el nombre de tu repositorio en GitHub
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
