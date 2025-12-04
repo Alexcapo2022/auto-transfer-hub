@@ -24,7 +24,7 @@ export const HeroSection = () => {
                 Servicio profesional y seguro
               </span>
               
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fade-in-up animation-delay-100">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fade-in-up animation-delay-100 text-white">
                 Transferencia de vehículos al{" "}
                 <span className="text-primary">mejor precio</span> del mercado
               </h1>
@@ -54,7 +54,7 @@ export const HeroSection = () => {
 
           {/* Right Column - Form */}
           <div className="w-full max-w-md mx-auto lg:ml-auto animate-fade-in-up animation-delay-400">
-            <ContactForm />
+            {/* <ContactForm /> */}
           </div>
         </div>
       </div>
