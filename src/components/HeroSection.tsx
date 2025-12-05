@@ -1,5 +1,5 @@
 import { ContactForm } from "./ContactForm";
-import { Clock, Shield, BadgeCheck } from "lucide-react";
+import { Clock, Shield, BadgeCheck, Car } from "lucide-react";  // Añadí un ícono de coche
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const HeroSection = () => {
@@ -12,7 +12,7 @@ export const HeroSection = () => {
       />
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-hero" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60" />
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4">
@@ -24,7 +24,7 @@ export const HeroSection = () => {
                 Servicio profesional y seguro
               </span>
               
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fade-in-up animation-delay-100 text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight animate-fade-in-up animation-delay-100">
                 Transferencia de vehículos al{" "}
                 <span className="text-primary">mejor precio</span> del mercado
               </h1>
@@ -49,6 +49,16 @@ export const HeroSection = () => {
                 <BadgeCheck className="w-5 h-5 text-primary" />
                 <span className="text-sm">Garantizado</span>
               </div>
+            </div>
+
+            {/* CTA Button */}
+            <div className="flex justify-center lg:justify-start">
+              <a
+                href="#reporte"
+                className="mt-6 bg-primary text-white py-3 px-8 rounded-full text-xl hover:bg-primary-dark transition duration-300"
+              >
+                Generar Reporte Vehicular
+              </a>
             </div>
           </div>
 
