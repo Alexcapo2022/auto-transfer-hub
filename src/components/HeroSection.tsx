@@ -57,7 +57,7 @@ export const HeroSection = () => {
                 href="#reporte"
                 className="mt-6 bg-primary text-white py-3 px-8 rounded-full text-xl hover:bg-primary-dark transition duration-300"
               >
-                Generar Reporte Vehicular
+                Vista previa Reporte Vehicular
               </a>
             </div>
           </div>
