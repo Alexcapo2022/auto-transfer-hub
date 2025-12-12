@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ReporteStep1 } from "../reporte/ReporteStep1";
+import { ReporteStep1 } from "./components/ReporteStep1";
 import { ReporteStep2 } from "../reporte/ReporteStep2";
 import { ReporteStep3 } from "../reporte/ReporteStep3";
 import { ProgressBar } from "../reporte/ProgressBar";
